@@ -226,11 +226,11 @@ print("Enter help for for list of commands")
 #take input until user inputs "exit"
 while (True):
 	#get input and split into arguments
-	user_input = input("Enter new capture > ").split(' ')
+	user_input = input("Schedule > ").split(' ')
 
 	if (user_input[0] == 'help'):
 		print(usage)
-		user_input = input("Enter new capture > ").split(' ')
+		user_input = input("Schedule > ").split(' ')
 
 	if (user_input[0] == 'file'):
 		with open(user_input[1]) as f:
