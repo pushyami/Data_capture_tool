@@ -10,6 +10,10 @@
 		- active: Enters interactive mode
 			Entered sequentially: camera name, clientID, clientSecret, ip address, date, time, duration
 		- File input: file [file name]
+
+
+
+	To be implemented:
 		- Search tool: search [ retrieve: [ ip | video path ] ] [ with: [ cameraID | source | country | state | city | ip ] ]
 
 """
@@ -218,7 +222,6 @@ usage = """
 		- active: Enters interactive mode
 			Entered sequentially: camera name, clientID, clientSecret, ip address, date, time, duration
 		- File input: file [file name]
-		- Search tool: search [ retrieve: [ ip | video path ] ] [ with: [ cameraID | source | country | state | city | ip ] ]
 """
 print("Enter help for for list of commands")
 
