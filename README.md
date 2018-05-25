@@ -21,7 +21,7 @@ Usage:
 		
 			client secret
 		
-			ip address - IP address of designated device
+			ip address - Needed to retrieve corresponding video path and create URL
 		
 			date - as a 6 digit number, ex: 052518 for May 25th, 2018
 		
