@@ -220,7 +220,6 @@ usage = """
 		- File input: file [file name]
 		- Search tool: search [ retrieve: [ ip | video path ] ] [ with: [ cameraID | source | country | state | city | ip ] ]
 """
-print(user_input)
 print("Enter help for for list of commands")
 
 #take input until user inputs "exit"
