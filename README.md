@@ -39,7 +39,7 @@ Usage:
 			1411
 			0.5	
 
-	* See **sched.txt** for an example (for use please note and change the execution dates and times)
+	* See **sched.txt** for an example (for use please change the client ID and secret, and execution dates and times)
 
 - Run in interactive mode using **active**
 		
