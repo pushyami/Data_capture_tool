@@ -64,6 +64,8 @@ To do:
 	
 	- Possible dependency install script
 	
+	- File mode input autocomplete
+	
 	- Active mode input history with quick recall (active mode is very tedious)
 	
 	- Search tool, will not execute a new scheduler itself but will find list of IPs corresponding to search inputs: source, country, state, city, etc.
