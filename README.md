@@ -9,11 +9,11 @@ Dependencies:
 	- numpy
 
 Usage:
-	- Run in venv by navigating to the home directory and executing **source venv/bin/activate**
-	- Navigate to scheduler's directory
-	- Run scheduler using **python ipscheduler2.1.pi**
-	- Run in file mode using **file [ file name ]**
-		* File format:
+- Run in venv by navigating to the home directory and executing **source venv/bin/activate**
+- Navigate to scheduler's directory
+- Run scheduler using **python ipscheduler2.1.pi**
+- Run in file mode using **file [ file name ]**
+	* File format:
 
 			camera name - Name of device, alternatively used for file naming (goes at the front of every output file name)
 		
