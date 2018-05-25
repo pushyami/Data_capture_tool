@@ -1,4 +1,4 @@
-Version 2.1 of IP Scheduler
+Version 2.1 of IP Scheduler (not modularized)
 
 Schedules recording sessions of IP cameras
 
@@ -55,6 +55,8 @@ Terminal must be left **OPEN** until all threads finish execution to get capture
 To do:
 	
 	- Modularize
+	
+	- Tutorial Video
 	
 	- Stream mode: keeps from having to actually save the recordings, will have a flag in the prompt to give type of session (record vs. stream)
 	
