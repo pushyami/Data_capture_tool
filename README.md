@@ -1,4 +1,4 @@
-Version 2.1 of IP Scheduler (not modularized)
+Version 2.2 of IP Scheduler
 
 Schedules recording sessions of IP cameras
 
@@ -57,8 +57,6 @@ Usage:
 Terminal must be left **OPEN** until all threads finish execution to get capture, i.e. threads are not background processes, they are attached to the terminal session.
 
 To do:
-	
-	- Modularize
 	
 	- Tutorial Video
 	
