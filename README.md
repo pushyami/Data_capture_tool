@@ -8,6 +8,9 @@ Dependencies:
 - requests
 - numpy
 
+Recordings stored locally as **cameraName_date_time**
+Logs (error, execution commands, and execution times) stored locally as **camera_exec_log.out**
+
 Usage:
 1. Run in venv by navigating to the home directory and executing **source venv/bin/activate**
 2. Navigate to scheduler's directory
