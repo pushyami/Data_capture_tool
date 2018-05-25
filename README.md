@@ -11,7 +11,7 @@ Dependencies:
 Usage:
 - Run in venv by navigating to the home directory and executing **source venv/bin/activate**
 - Navigate to scheduler's directory
-- Run scheduler using **python ipscheduler2.1.pi**
+- Run scheduler using **python ipschedulerv2.1.pi**
 - Run in file mode using **file [ file name ]**
 	* File format:
 
@@ -52,6 +52,8 @@ Terminal must be left **OPEN** until all threads finish execution to get capture
 To do:
 	
 	- Modularize
+	
+	- Stream mode: saves on having to actually save the recordings, will have a flag in the prompt to give type of session (record vs. stream)
 	
 	- Possible dependency install script
 	
