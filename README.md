@@ -55,7 +55,7 @@ To do:
 	
 	- Modularize
 	
-	- Stream mode: saves on having to actually save the recordings, will have a flag in the prompt to give type of session (record vs. stream)
+	- Stream mode: keeps from having to actually save the recordings, will have a flag in the prompt to give type of session (record vs. stream)
 	
 	- Possible dependency install script
 	
