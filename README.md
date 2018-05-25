@@ -3,10 +3,10 @@ Version 2.1 of IP Scheduler
 Schedules recording sessions of IP cameras
 
 Dependencies:
-	- opencv
-	- venv
-	- requests
-	- numpy
+- opencv
+- venv
+- requests
+- numpy
 
 Usage:
 - Run in venv by navigating to the home directory and executing **source venv/bin/activate**
