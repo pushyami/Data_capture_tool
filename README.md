@@ -53,6 +53,8 @@ To do:
 	
 	- Modularize
 	
+	- Stream mode: saves on having to actually save the recordings, will have a flag the in prompt to give type of session (record vs. stream)
+	
 	- Possible dependency install script
 	
 	- Active mode input history (active mode is very tedious)
