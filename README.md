@@ -28,6 +28,15 @@ Usage:
 			time - as a 4 digit number in military time, ex: 1445 for 2:45PM
 		
 			duration - in minutes, use a float for seconds, ex: 1.5 for 1 minute and 30 seconds of footage
+	
+			Ex:
+			dog_cam
+			*****e03eba853ea97f907112fbeb1bfacad823c3759d52ca71418eb75ff3b3a7ab009c9a5682bb4c4f10a**********
+			*****d487f83782439ad5c5701aef98d99c0690414915b15d5bb6423dd380**********
+			173.165.152.131
+			052518
+			1411
+			0.5	
 
 
 - Run in interactive mode using **active**
