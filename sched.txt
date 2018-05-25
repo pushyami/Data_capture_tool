@@ -1,11 +1,11 @@
-doggie
+dog_cam
 <your client ID>
 <your client secret>
 173.165.152.131
 052518
 1559
 0.5
-doggie
+dog_cam
 <your client ID>
 <your client secret>
 173.165.152.131
