@@ -9,13 +9,9 @@ Dependencies:
 	- numpy
 
 Usage:
-	
 	- Run in venv by navigating to the home directory and executing **source venv/bin/activate**
-	
 	- Navigate to scheduler's directory
-	
 	- Run scheduler using **python ipscheduler2.1.pi**
-	
 	- Run in file mode using **file [ file name ]**
 		* File format:
 
@@ -33,13 +29,13 @@ Usage:
 		
 			duration - in minutes, use a float for seconds, ex: 1.5 for 1 minute and 30 seconds of footage
 
-	
-	- Run in interactive mode using **active**
+
+- Run in interactive mode using **active**
 		* Creates input prompt that follows same format as files
+
+- Enter help to get list of commands
 	
-	- Enter help to get list of commands
-	
-	- Enter exit to close program (WARNING: KILLS ACTIVE THREADS/FUTURE EXECUTIONS)
+- Enter exit to close program (WARNING: KILLS ACTIVE THREADS/FUTURE EXECUTIONS)
 
 
 Terminal must be left **OPEN** until all threads finish execution to get capture, i.e. threads are not background processes, they are attached to the terminal session.
