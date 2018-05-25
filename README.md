@@ -11,7 +11,7 @@ Dependencies:
 Usage:
 - Run in venv by navigating to the home directory and executing **source venv/bin/activate**
 - Navigate to scheduler's directory
-- Run scheduler using **python ipscheduler2.1.pi**
+- Run scheduler using **python ipschedulerv2.1.pi**
 - Run in file mode using **file [ file name ]**
 	* File format:
 
