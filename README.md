@@ -9,11 +9,11 @@ Dependencies:
 	- numpy
 
 Usage:
-1. Run in venv by navigating to the home directory and executing **source venv/bin/activate**
-2. Navigate to scheduler's directory
-3. Run scheduler using **python ipscheduler2.1.pi**
-4. Run in file mode using **file [ file name ]**
-	- File format:
+	- Run in venv by navigating to the home directory and executing **source venv/bin/activate**
+	- Navigate to scheduler's directory
+	- Run scheduler using **python ipscheduler2.1.pi**
+	- Run in file mode using **file [ file name ]**
+		* File format:
 
 			camera name - Name of device, alternatively used for file naming (goes at the front of every output file name)
 		
@@ -29,12 +29,16 @@ Usage:
 		
 			duration - in minutes, use a float for seconds, ex: 1.5 for 1 minute and 30 seconds of footage
 
-5. Run in interactive mode using **active**
-	- Creates input prompt that follows same format as files
-7. Enter help to get list of commands
-8. Enter exit to close program (WARNING: KILLS ACTIVE THREADS/FUTURE EXECUTIONS)
+	- Run in interactive mode using **active**
+		* Creates input prompt that follows same format as files
+	- Enter help to get list of commands
+	- Enter exit to close program (WARNING: KILLS ACTIVE THREADS/FUTURE EXECUTIONS)
 
 
 Terminal must be left **OPEN** until all threads finish execution to get capture, i.e. threads are not background processes, they are attached to the terminal session.
 
-
+To do:
+	- Modularize
+	- Possible dependency install script
+	- Active mode input history (active mode is very tedious)
+	- Search tool, will not execute a scheduler itself but will find list of IPs corresponding to search inputs: source, country, state, city, etc.
