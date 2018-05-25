@@ -9,6 +9,7 @@ Dependencies:
 - numpy
 
 Recordings stored locally as **cameraName_date_time**
+
 Logs (error, execution commands, and execution times) stored locally as **camera_exec_log.out**
 
 Usage:
