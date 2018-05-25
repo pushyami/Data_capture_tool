@@ -244,14 +244,14 @@ while (True):
 				if (count % 7 == 0):
 					user_input += line
 					user_input = user_input.split('\n')
+					print(str(user_input))
 					user_input = map(str.strip, user_input)
 					new_thread = threading.Thread(target=exec_capture, args=(user_input))
 					new_thread.start()
 					user_input = ''
 				else:
 					user_input += line + ' '
-			user_input = orig_user
-	
+			user_input = orig_user	
 
 	#exit on command
 	if (user_input[0] == 'exit'):
