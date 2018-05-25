@@ -41,7 +41,7 @@ Usage:
 
 
 - Run in interactive mode using **active**
-		* Creates input prompt that follows same format as files
+		- Creates input prompt that follows same format as files
 
 - Enter help to get list of commands
 	
