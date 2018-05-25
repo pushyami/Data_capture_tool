@@ -115,7 +115,7 @@ def exec_capture(*user_input):
 	exec_file.write('-----------------------------------------------------------------\n')
 	exec_file.close()
 
-	#Will be getting video path given the ip (implement first in videopath_retriever.py)
+	#Automates video path retrieval (to complete stream URL) given IP
 	#------------------------
 	
 	result = {}
@@ -229,13 +229,13 @@ while (True):
 
 	if (user_input[0] == 'help'):
 		print(usage)
-		user_input = input("Schedule > ").split(' ')
-
+		
 	if (user_input[0] == 'file'):
 		with open(user_input[1]) as f:
 			orig_user = user_input
 			user_input = ''
 			count = 0
+			#parses file and executes
 			for line in f:
 				count += 1
 				if (count % 7 == 0):
