@@ -32,8 +32,8 @@ Usage:
 	
 			Ex:
 			dog_cam
-			*****e03eba853ea97f907112fbeb1bfacad823c3759d52ca71418eb75ff3b3a7ab009c9a5682bb4c4f10a**********
-			*****d487f83782439ad5c5701aef98d99c0690414915b15d5bb6423dd380**********
+			*****e03eba853ea97f907112fbeb1bfaca
+			*****d487f83782439ad5c57
 			173.165.152.131
 			052518
 			1411
