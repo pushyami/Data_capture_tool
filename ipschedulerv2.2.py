@@ -134,31 +134,30 @@ class IPSched:
 
 
 	#Automates video path retrieval (to complete stream URL) given IP
+	#Taken from CAM2 API
 	#------------------------
 	def get_videopath(clientID, clientSecret, user_ip):		
+		#retrieve token
 		result = {}
-
 		endpoint = 'https://cam2-api.herokuapp.com/auth/' + '?clientID=' + clientID + '&clientSecret=' + clientSecret
-
 		response = requests.get(endpoint)
-
 		result = response.json()
 
+		#retrieve list of active ip camera streams
 		endpoint = 'https://cam2-api.herokuapp.com/cameras/search?type=ip&is_active_video=true'
-
 		headers = {"Authorization":"Bearer " + result["token"]}
-
 		response = requests.get(endpoint, headers=headers)
-
 		result = response.json()
 
 		videopath = 'None'
 		
+		#search for ip in the list, match with video path
 		for ips in result:
 			if (ips['retrieval']['ip'] == user_ip):
 				videopath = ips['retrieval']['video_path']
 				break
 		
+		#Log a 'Video path not found' error
 		if (videopath == 'None'):
 			exec_file = open('camera_exec_log.out', 'a')
 			exec_file.write(str(datetime.now()) + '\nVideo path not found with ip ' + str(user_ip) + '\n')
@@ -172,9 +171,11 @@ class IPSched:
 	
 
 	#calls the video capture script here
+	#Thanks to ZK for this
 	#-------------------------
 	def cap_video(user, user_ip, videopath, duration):		
 		cam_name = user
+		#create complete URL
 		ip = 'http://' + user_ip + videopath
 		duration = float(duration)
 		
