@@ -130,9 +130,6 @@ class IPSched:
 		IPSched.cap_video(user, user_ip, videopath, duration)			
 	#------------------------end of scheduler
 
-
-
-
 	#Automates video path retrieval (to complete stream URL) given IP
 	#Taken from CAM2 API
 	#------------------------
@@ -167,9 +164,6 @@ class IPSched:
 		return videopath	
 	#-------------------------end of get_videopath
 	
-
-	
-
 	#calls the video capture script here
 	#Thanks to ZK for this
 	#-------------------------
@@ -228,9 +222,6 @@ class IPSched:
 		out.release()
 		cv2.destroyAllWindows()
 	#-------------------------end of cap_video
-
-
-
 
 	#Main start of program
 	#Runs command prompt and spawns scheduler threads
@@ -297,6 +288,7 @@ class IPSched:
 
 		sys.exit()
 	#------------------------end of driver
+#------------------------end of IPSched class
 
 init = IPSched()
 init.driver()
