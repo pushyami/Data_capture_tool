@@ -2,6 +2,10 @@
 This version counts the number of frames in each minute interval and then creates one minute blocks
 according to the fps calculated of the one minute block
 
+To run the code
+$ python3 recorder.py name_of_file 'url' minutes
+$ python3 recorder.py doggie 'http://173.165.152.131/axis-cgi/mjpg/video.cgi' 5
+
 """
 import datetime
 
