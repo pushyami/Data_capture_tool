@@ -15,7 +15,7 @@ Logs (error, execution commands, and execution times) stored locally as **camera
 Usage:
 1. Run in venv by navigating to the home directory and executing **source venv/bin/activate**
 2. Navigate to scheduler's directory
-3. Run scheduler using **python ipschedulerv2.1.pi**
+3. Run scheduler using **python ipschedulerv2.2.pi**
 
 - Run in file mode using **file [ file name ]**
 	* File format:
